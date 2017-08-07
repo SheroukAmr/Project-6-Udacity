@@ -20,14 +20,15 @@ apache
 postgresql
 python 2.7
 ```
-## 5. Update all currently installed packages
+# Steps
+## 1. Update all currently installed packages
 
 sudo apt-get update
 sudo apt-get upgrade
 
-## 6. Change the SSH port from 22 to 2200
+## 2. Change the SSH port from 22 to 2200
 1. Use `sudo vim /etc/ssh/sshd_config` and then change Port 22 to Port 2200 , save & quit.
 2. Reload SSH using `sudo service ssh restart`
 
-## 7. Configure the Uncomplicated Firewall (UFW)
+## 3. Configure the Uncomplicated Firewall (UFW)
 
